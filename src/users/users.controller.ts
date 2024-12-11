@@ -12,6 +12,9 @@ export class UsersController {
     return this.usersService.create(createUserDto);
   }
 
+  @Post('login')
+  
+
   @Get()
   findAll() {
     return this.usersService.findAll();
